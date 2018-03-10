@@ -4,4 +4,4 @@ RUN apt-get update && \
   cd /opt && \
   git clone https://gitlab.eurecom.fr/samlty/openair-cn.git
   
-RUN cd /opt/openair-cn/SCRIPTS && ./build_mme -i -F
+RUN cd /opt/openair-cn/SCRIPTS && ./build_mme -i -f
